@@ -1,0 +1,77 @@
+.Patient-Details{
+    font-weight: 61;
+    margin: 30px;
+}
+.bottom-form{
+    display: flex;
+}
+.left-side-form{
+    margin-left: 30px;
+    
+}
+.First-Name>label{
+    margin-right: 44px;
+}
+.Age>label{
+    margin-right: 91px;
+}
+.DOB>label{
+    margin-right: 87px;
+}
+.right-side-form{
+    padding-left: 20px;
+    
+}
+.First-Name>input,.Age>input{
+    width: 501px;
+}
+.Hospital{
+    width: 510px;
+    margin-left: 60px;
+}
+.DOB>input{
+    width: 504px;
+}
+.Total-Amount>input{
+    width: 504px;
+    margin-left: 22px;
+}
+.Last-Name>input{
+    width: 502px;
+    margin-left:44px ;
+}
+.City>select{
+    width: 510px;
+    margin-left:93px ;
+}
+.Discharge-Date>input{
+    width: 505px;
+    margin-left:13px ;
+}
+.Admission-Date>input{
+    width: 504px;
+    margin-left:10px ;
+}
+.button{
+    position: absolute;
+    right: 0;
+    background-color: rgb(38, 111, 180);
+    color: white;
+    padding: 6px 11px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+.Add-Test{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.First-Name,.Age,.DOB,.Hospital-names,.Total-Amount,.Last-Name,.City,.Admission-Date,.Discharge-Date{
+    margin-bottom: 20px;
+}  
+.First-Name>input,.Age>input,.DOB>input,.Hospital-names>select,.Total-Amount>input,.Last-Name>input,.City>select,.Admission-Date>input,.Discharge-Date>input{
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 22px;
+}

@@ -1,0 +1,63 @@
+.result-box{
+    border: 1px solid black;
+    height: 144px;
+    margin-top: 33px;
+
+    
+}
+.result-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.result-box-1,.result-box-2,.result-box-3,.result-box-4,.result-box-5,.result-box-6{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 28px;
+    height: 83px;
+    width: 230px;
+    
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.result-box-1>p,.result-box-2>p,.result-box-3>p,.result-box-4>p,.result-box-5>p,.result-box-6>p{
+    border-bottom: 1px solid black;
+    height: 30px;
+    /* margin-left: 5px; */
+    width: 100%;
+}
+.result-box-6{
+    display: block;
+    position: relative;
+}
+.Edit{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 2px;
+  background-color: rgb(34, 183, 209);
+  color: aliceblue;
+  border: 1px solid gray;
+}
+.Delete{
+    margin-left: 53px;
+    background-color: rgb(218, 31, 31);
+    color: aliceblue;
+    border: 1px solid gray;
+}
+.submit{
+    background-color: rgb(14, 209, 79);
+    color: aliceblue;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.submit-section{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
